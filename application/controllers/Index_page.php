@@ -112,7 +112,7 @@ class Index_page extends BaseController {
                         $resulst = $this->email->send();
 
                         
-                        if($result > 0)
+                        if($resulst > 0)
                         {
 
                             $this->session->set_flashdata('success', 'Email Successfully Send'); 
@@ -187,7 +187,7 @@ class Index_page extends BaseController {
                         $resulst = $this->email->send();
 
                         
-                        if($result > 0)
+                        if($resulst > 0)
                         {
 
                             $this->session->set_flashdata('success', 'Email Successfully Send'); 
@@ -285,7 +285,7 @@ class Index_page extends BaseController {
                         $resulst = $this->email->send();
 
                         
-                        if($result > 0)
+                        if($resulst > 0)
                         {
 
                             $this->session->set_flashdata('success', 'Email Successfully Send'); 
