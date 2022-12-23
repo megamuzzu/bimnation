@@ -93,7 +93,7 @@ class Index_page extends BaseController {
 
                         $description =$html_data;
 
-                        print_r($description);die();
+                        
 
 
                         $this->load->library('email');
@@ -168,7 +168,7 @@ class Index_page extends BaseController {
 
                         $description =$html_data;
 
-                        print_r($description);die();
+                        
 
 
                         $this->load->library('email');
@@ -266,7 +266,7 @@ class Index_page extends BaseController {
 
                         $description =$html_data;
 
-                        print_r($description);die();
+                        
 
 
                         $this->load->library('email');
