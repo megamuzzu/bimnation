@@ -255,7 +255,7 @@ class Index_page extends BaseController {
                         $config['mailtype'] = 'html';
                         $this->email->initialize($config);
                         $toemail = 'muzammilmegatask@gmail.com';
-                        $this->email->from('mail@bimnation.in', 'New Career Lead');
+                        $this->email->from('email@bimnation.in', 'New Career Lead');
                         $this->email->to($toemail);
                         $this->email->attach($full_path_doc);
 
@@ -266,18 +266,9 @@ class Index_page extends BaseController {
 
                         $resulst = $this->email->send();
 
-                        
-                        if($resulst > 0)
-                        {
-
-                            $this->session->set_flashdata('success', 'Email Successfully Send'); 
-                        }
-                        else
-                        { 
-                            $this->session->set_flashdata('error', 'Email Not Send Successfully Send');
-                        }
                      }
 
+                      redirect($this->career());
 
             }
 
