@@ -5,6 +5,12 @@ require APPPATH . '/libraries/BaseController.php';
 
 class Index_page extends BaseController {
  	
+     function __construct() { 
+         parent::__construct(); 
+         $this->load->library('session'); 
+         $this->load->helper('form'); 
+      }
+
 	 
 	public function index()
 	{      
@@ -80,8 +86,6 @@ class Index_page extends BaseController {
                     $insertData['reservation_email']        = $form_data['reservation_email'];
                     $insertData['reservation_phone']        = $form_data['reservation_phone'];
                     $insertData['form_message']             = $form_data['form_message'];
-
-
                 
                         $html_data = " Reservation Name : ".  $form_data['reservation_name']."<br>";
                         $html_data .= "Reservation Email : ".  $form_data['reservation_email']."<br>";
@@ -89,41 +93,23 @@ class Index_page extends BaseController {
                         $html_data .= "Form Message : ".  $form_data['form_message']."<br>";
                          
 
-
-
                         $description =$html_data;
-
-                        
-
 
                         $this->load->library('email');
                         $config['mailtype'] = 'html';
                         $this->email->initialize($config);
                         $toemail = 'muzammilmegatask@gmail.com';
-                        $this->email->from('mail@bimnation.in', 'New Registartion Lead');
+                        $this->email->from('email@bimnation.in', 'New Registartion Lead');
                         $this->email->to($toemail);
      
-
-                            
 
                         $this->email->subject('New Lead Arrival ');
                         $this->email->message( $description );
 
                         $resulst = $this->email->send();
-
-                        
-                        if($resulst > 0)
-                        {
-
-                            $this->session->set_flashdata('success', 'Email Successfully Send'); 
-                        }
-                        else
-                        { 
-                            $this->session->set_flashdata('error', 'Email Not Send Successfully Send');
-                        }
                      }
 
-                     redirect(base_url());
+                     redirect($this->index());
 
             }
 
