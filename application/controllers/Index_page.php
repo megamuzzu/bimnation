@@ -123,6 +123,7 @@ class Index_page extends BaseController {
                         }
                      }
 
+                     redirect(base_url());
 
             }
 
@@ -162,24 +163,17 @@ class Index_page extends BaseController {
                         $html_data .= "Contact Subject : ".  $form_data['form_subject']."<br>";
                         $html_data .= "Contact Phone : ".  $form_data['form_phone']."<br>";
                         $html_data .= "Form Message : ".  $form_data['form_message']."<br>";
-                         
-
-
-
-                        $description =$html_data;
-
                         
 
-
+                        $description =$html_data;
+                      
                         $this->load->library('email');
                         $config['mailtype'] = 'html';
                         $this->email->initialize($config);
                         $toemail = 'muzzuaj@gmail.com';
                         $this->email->from('mail@bimnation.in', 'New Contact Us Lead');
                         $this->email->to($toemail);
-     
-
-                            
+ 
 
                         $this->email->subject('New Lead Arrival ');
                         $this->email->message( $description );
@@ -197,6 +191,8 @@ class Index_page extends BaseController {
                             $this->session->set_flashdata('error', 'Email Not Send Successfully Send');
                         }
                      }
+
+                     redirect();
 
 
             }
