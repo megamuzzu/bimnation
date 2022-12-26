@@ -3,7 +3,7 @@
   <!-- Start main-content -->
   <div class="main-content bg-lighter">
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/bg/bg1.jpg">
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="<?php echo base_url()?>assets/images/bg/bg1.jpg">
       <div class="container pt-70 pb-20">
         <!-- Section Content -->
         <div class="section-content">
@@ -11,7 +11,7 @@
             <div class="col-md-12">
               <h2 class="title text-white text-center">About Us</h2>
               <ol class="breadcrumb text-left text-black mt-10">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="<?php echo base_url()?>">Home</a></li>
                 <li class="active text-gray-silver">About Us</li>
               </ol>
             </div>
@@ -36,8 +36,8 @@
             </div>
             <div class="col-sm-12 col-md-6 mt-10 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
               <div class="video-popup">                
-                <a href="https://www.youtube.com/watch?v=pW1uVUg5wXM" data-lightbox-gallery="youtube-video" title="Video">
-                  <img alt="" src="images/about/5.jpg" class="img-responsive img-fullwidth mt-10 ml-30 ml-xs-0 ml-sm-0">
+                <a href="#" data-lightbox-gallery="youtube-video" title="Video">
+                  <img alt="" src="<?php echo base_url()?>assets/images/photos/ab1.jpg" class="img-responsive img-fullwidth mt-10 ml-30 ml-xs-0 ml-sm-0" style="border-radius:12px ;">
                 </a>
               </div>
             </div>
@@ -106,7 +106,7 @@
                   </div>
                   <div class="content mt-20">
                     <div class="thumb pull-left flip">
-                      <img width="64" src="images/testimonials/img1.png" alt="" class="img-circle">
+                      <img width="64" src="<?php echo base_url()?>assets/images/testimonials/img1.png" alt="" class="img-circle">
                     </div>
                     <div class="testimonials-details pull-left flip ml-20">
                       <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">BIM Consultancy</h6>
@@ -125,7 +125,7 @@
                   </div>
                   <div class="content mt-20">
                     <div class="thumb pull-left flip">
-                      <img width="64" src="images/testimonials/img1.png" alt="" class="img-circle">
+                      <img width="64" src="<?php echo base_url()?>assets/images/testimonials/img1.png" alt="" class="img-circle">
                     </div>
                     <div class="testimonials-details pull-left flip ml-20">
                       <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">BIM Consultancy</h6>
@@ -144,7 +144,7 @@
                   </div>
                   <div class="content mt-20">
                     <div class="thumb pull-left flip">
-                      <img width="64" src="images/testimonials/img1.png" alt="" class="img-circle">
+                      <img width="64" src="<?php echo base_url()?>assets/images/testimonials/img1.png" alt="" class="img-circle">
                     </div>
                     <div class="testimonials-details pull-left flip ml-20">
                       <h6 class="title font-14 m-0 mt-5 mb-5 text-gray-darkgray">BIM Consultancy</h6>

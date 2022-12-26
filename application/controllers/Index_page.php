@@ -4,20 +4,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 require APPPATH . '/libraries/BaseController.php';
 
 class Index_page extends BaseController {
- 	
+    
      function __construct() { 
          parent::__construct(); 
          $this->load->library('session'); 
          $this->load->helper('form'); 
       }
 
-	 
-	public function index()
-	{      
+     
+    public function index()
+    {      
         $data = array();
         $data["title"]="Bim Nation";
         $this->load->view('index',$data);
-	}
+    }
 
 
     public function about_us()
@@ -165,20 +165,9 @@ class Index_page extends BaseController {
                         $this->email->message( $description );
 
                         $resulst = $this->email->send();
-
-                        
-                        if($resulst > 0)
-                        {
-
-                            $this->session->set_flashdata('success', 'Email Successfully Send'); 
-                        }
-                        else
-                        { 
-                            $this->session->set_flashdata('error', 'Email Not Send Successfully Send');
-                        }
                      }
 
-                     redirect();
+                     redirect(base_url().'contact-us');
 
 
             }
@@ -268,13 +257,10 @@ class Index_page extends BaseController {
 
                      }
 
-                      redirect($this->career());
+                      redirect(base_url().'career');
 
             }
 
-
-
-
     }
-	
+    
  

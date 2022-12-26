@@ -3,7 +3,7 @@
   <!-- Start main-content -->
   <div class="main-content bg-lighter">
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/bg/bg6.jpg">
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="<?php echo base_url()?>assets/images/bg/bg1.jpg">
       <div class="container pt-70 pb-20">
         <!-- Section Content -->
         <div class="section-content">
@@ -11,7 +11,7 @@
             <div class="col-md-12">
               <h2 class="title text-white text-center">Contact Us</h2>
               <ol class="breadcrumb text-left text-black mt-10">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="<?php echo base_url()?>">Home</a></li>
                 <li class="active text-gray-silver">Conatct Us</li>
               </ol>
             </div>

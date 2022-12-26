@@ -3,7 +3,7 @@
   <!-- Start main-content -->
   <div class="main-content bg-lighter">
     <!-- Section: inner-header -->
-    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/bg/bg1.jpg">
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="<?php echo base_url()?>assets/images/bg/bg1.jpg">
       <div class="container pt-70 pb-20">
         <!-- Section Content -->
         <div class="section-content">
@@ -94,7 +94,7 @@
           </div>   
           <div class="col-md-6">
             <div class="single-img">
-              <img src="images/services/BIM-Workshops6.jpg" class="img-responsive">                      
+              <img src="<?php echo base_url()?>assets/images/services/BIM-Workshops6.jpg" class="img-responsive">                      
             </div>
           </div>          
         </div>
@@ -143,7 +143,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item campus">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="images/gallery/BIM-Workshops1.jpg" alt="project">
+                    <img class="img-fullwidth" src="<?php echo base_url()?>assets/images/gallery/BIM-Workshops1.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="text-holder">
                       <div class="title text-center">BIM Workshops</div>
@@ -151,7 +151,7 @@
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/BIM-Workshops1.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo base_url()?>assets/images/gallery/BIM-Workshops1.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -162,7 +162,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item photos students">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="images/gallery/BIM-Workshops2.jpg" alt="project">
+                    <img class="img-fullwidth" src="<?php echo base_url()?>assets/images/gallery/BIM-Workshops2.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="text-holder">
                       <div class="title text-center">BIM Workshops</div>
@@ -170,7 +170,7 @@
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/BIM-Workshops2.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo base_url()?>assets/images/gallery/BIM-Workshops2.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -181,7 +181,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item campus">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="images/gallery/BIM-Workshops3.jpg" alt="project">
+                    <img class="img-fullwidth" src="<?php echo base_url()?>assets/images/gallery/BIM-Workshops3.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="text-holder">
                       <div class="title text-center">BIM Workshops</div>
@@ -189,7 +189,7 @@
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/BIM-Workshops3.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo base_url()?>assets/images/gallery/BIM-Workshops3.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -200,7 +200,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item photos">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="images/gallery/BIM-Workshops4.jpg" alt="project">
+                    <img class="img-fullwidth" src="<?php echo base_url()?>assets/images/gallery/BIM-Workshops4.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="text-holder">
                       <div class="title text-center">BIM Workshops</div>
@@ -208,7 +208,7 @@
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/BIM-Workshops4.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo base_url()?>assets/images/gallery/BIM-Workshops4.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -219,7 +219,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item campus students">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="images/gallery/BIM-Workshops5.jpg" alt="project">
+                    <img class="img-fullwidth" src="<?php echo base_url()?>assets/images/gallery/BIM-Workshops5.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="text-holder">
                       <div class="title text-center">BIM Workshops</div>
@@ -227,7 +227,7 @@
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/BIM-Workshops5.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo base_url()?>assets/images/gallery/BIM-Workshops5.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>
@@ -238,7 +238,7 @@
                 <!-- Portfolio Item Start -->
                 <div class="gallery-item students">
                   <div class="thumb">
-                    <img class="img-fullwidth" src="images/gallery/BIM-Workshops6.jpg" alt="project">
+                    <img class="img-fullwidth" src="<?php echo base_url()?>assets/images/gallery/BIM-Workshops6.jpg" alt="project">
                     <div class="overlay-shade"></div>
                     <div class="text-holder">
                       <div class="title text-center">BIM Workshops</div>
@@ -246,7 +246,7 @@
                     <div class="icons-holder">
                       <div class="icons-holder-inner">
                         <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                          <a href="images/gallery/BIM-Workshops6.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
+                          <a href="<?php echo base_url()?>assets/images/gallery/BIM-Workshops6.jpg" data-lightbox-gallery="gallery" title="Your Title Here"><i class="fa fa-picture-o"></i></a>
                         </div>
                       </div>
                     </div>

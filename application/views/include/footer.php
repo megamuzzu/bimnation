@@ -20,11 +20,11 @@
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Quick Links</h5>
             <ul class="list angle-double-right list-border">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="about-us.php">About Us</a></li>
-              <li><a href="bim-services.php">BIM Services</a></li>
-              <li><a href="bim-training.php">BIM Training</a></li>
-              <li><a href="contact-us.php">Conatct Us</a></li>
+              <li><a href="<?php echo base_url()?>">Home</a></li>
+              <li><a href="<?php echo base_url()?>about-us">About Us</a></li>
+              <li><a href="<?php echo base_url()?>bim-services">BIM Services</a></li>
+              <li><a href="<?php echo base_url()?>bim-training">BIM Training</a></li>
+              <li><a href="<?php echo base_url()?>contact-us">Conatct Us</a></li>
             </ul>
           </div>
         </div>
@@ -44,9 +44,9 @@
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Quick Contact</h5>
             <ul class="list-border">
-              <li><a href="#">+91 882 636 7018</a></li>
-              <li><a href="#">info@bimnation.in</a></li>
-              <li><a href="#" class="lineheight-20">D-21, Kalindi Kunj Road, Delhi</a></li>
+              <li><a href="tel:+918826367018">+91 882 636 7018</a></li>
+              <li><a href="mailto:info@bimnation.in">info@bimnation.in</a></li>
+              <li><a href="https://goo.gl/maps/HaxxwVfxXDjf5qVPA" class="lineheight-20">D-21, Kalindi Kunj Road, Delhi</a></li>
             </ul>
             <p class="font-16 text-white mb-5 mt-15">Subscribe to our newsletter</p>
             <form id="footer-mailchimp-subscription-form" class="newsletter-form mt-10">

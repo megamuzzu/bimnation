@@ -6,12 +6,12 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="LearnPress | Education & Courses HTML Template" />
-<meta name="keywords" content="academy, course, education, education html theme, elearning, learning," />
-<meta name="author" content="ThemeMascot" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
 
 <!-- Page Title -->
-<title><?php echo $title;?></title>
+<title>Bim Nation</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="<?php echo base_url()?>assets/images/favicon.png" rel="shortcut icon" type="image/png">
@@ -35,8 +35,6 @@
 <link href="<?php echo base_url()?>assets/css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <!-- CSS | Responsive media queries -->
 <link href="<?php echo base_url()?>assets/css/responsive.css" rel="stylesheet" type="text/css">
-<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
-<!-- <link href="<?php echo base_url()?>assets/css/style.css" rel="stylesheet" type="text/css"> -->
 
 <!-- Revolution Slider 5.x CSS settings -->
 <link  href="<?php echo base_url()?>assets/js/revolution-slider/css/settings.css" rel="stylesheet" type="text/css"/>
@@ -87,15 +85,11 @@
             <div class="widget no-border m-0">
               <ul class="list-inline text-right sm-text-center">
                 <li>
-                  <a href="faq.php" class="text-white">FAQ</a>
+                  <a href="<?php echo base_url()?>faq" class="text-white">FAQ</a>
                 </li>
                 <li class="text-white">|</li>
                 <li>
-                  <a href="career.php" class="text-white">Career</a>
-                </li>
-                <li class="text-white">|</li>
-                <li>
-                  <a href="#" class="text-white">Support</a>
+                  <a href="<?php echo base_url()?>career" class="text-white">Career</a>
                 </li>
               </ul>
             </div>
@@ -107,26 +101,20 @@
       <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
         <div class="container">
           <nav id="menuzord-right" class="menuzord default">
-            <a class="menuzord-brand pull-left flip" href="index.php">
+            <a class="menuzord-brand pull-left flip" href="<?php echo base_url()?>">
               <img src="<?php echo base_url()?>assets/images/logo-wide.png" alt="">
             </a>
             <ul class="menuzord-menu">
-              <li class="active"><a href="index.php">Home</a></li>
-              <li><a href="about-us.php">About Us</a></li>
-                          
-              <li><a href="services.php">BIM Services</a>
+              <li><a href="<?php echo base_url()?>">Home</a></li>
+              <li><a href="<?php echo base_url()?>about-us">About Us</a></li>                          
+              <li><a href="<?php echo base_url()?>services">BIM Services</a>
                 <ul class="dropdown">
                   <li><a href="#">BIM MANAGEMENT </a></li>
                   <li><a href="#">BIM MODEL CREATION</a></li>
                 </ul>
               </li>
-              <li><a href="bim-training.php">BIM TRAINING </a></li>
-              <li><a href="contact-us.php">Contact Us</a></li> 
-              
-              
-              
-              
-             
+              <li><a href="<?php echo base_url()?>bim-training">BIM TRAINING </a></li>
+              <li><a href="<?php echo base_url()?>contact-us">Contact Us</a></li>              
             </ul>
           </nav>
         </div>
