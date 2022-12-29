@@ -11,7 +11,7 @@
             <div class="col-md-12">
               <h2 class="title text-white text-center">BIM TRAINING </h2>
               <ol class="breadcrumb text-left text-black mt-10">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="<?php echo base_url()?>">Home</a></li>
                 <li class="active text-gray-silver">BIM TRAINING</li>
               </ol>
             </div>

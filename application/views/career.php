@@ -81,7 +81,7 @@ hr {
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-md-push-3">
-                <div class="text-center mb-30"><a href="index.php" class=""><img alt="" src="<?php echo base_url()?>assets/images/logo-wide-white.png"></a>
+                <div class="text-center mb-30"><a href="<?php echo base_url()?>" class=""><img alt="" src="<?php echo base_url()?>assets/images/logo-wide-white.png"></a>
                 </div>
                 <div class="bg-lightest border-1px p-30 mb-0">
                   <h3 class="text-theme-colored mt-0 pt-5"> PLACEMENTS FOR STUDENTS AND PROFESSIONALS</h3>

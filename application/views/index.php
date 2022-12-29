@@ -20,7 +20,7 @@
                     <img class="img-fullwidth" src="<?php echo base_url()?>assets/images/services/bim-services.png" alt="">
                     <h4 class="letter-space-1 mt-10">BIM <span class="text-theme-color-2"> SERVICES</span></h4>
                     <p>The concept of Building Information Modeling is built on the foundation of enabling seamless and enhanced collaboration between...</p>
-                    <a href="services.php" class="btn btn-sm btn-theme-colored">Read more</a>
+                    <a href="<?php echo base_url()?>services" class="btn btn-sm btn-theme-colored">Read more</a>
                   </div>
                 </div>
                 <div class="col-md-6 wow fadeInUp" data-wow-duration="1.2s">
@@ -29,7 +29,7 @@
                    
                     <h4 class=" letter-space-1 mt-10">BIM<span class="text-theme-color-2"> TRAINING</span></h4>
                     <p>BIM NATION offers professional training in BIM-Revit. We focus on covering all the essential aspects required to handle complex challenges...</p>
-                    <a href="bim-training.php" class="btn btn-sm btn-theme-colored">Read more</a>
+                    <a href="<?php echo base_url()?>bim-training" class="btn btn-sm btn-theme-colored">Read more</a>
                   </div>
                 </div>
               </div>
@@ -84,7 +84,7 @@
         <div class="row equal-height">
           <div class="col-sm-6 col-md-6 xs-pull-none bg-theme-colored wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
             <div class="pt-60 pb-40 pl-90 pr-160 p-md-30">
-              <h2 class="title text-white text-uppercase line-bottom mt-0 mb-30">How we support your team</h2>
+              <h2 class="title icon-s text-white text-uppercase line-bottom mt-0 mb-30">How we support your team</h2>
               <div class="icon-box clearfix m-0 p-0 pb-10">
                 <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none"> 
                   <i class="fa fa-life-ring text-theme-color-2 font-20"></i>
@@ -140,11 +140,11 @@
                   <div class="thumb">
                     <img class="img-fullwidth" alt="" src="<?php echo base_url()?>assets/images/services/BIM-Management.jpg">
                     <div class="hover-link">
-                      <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="services.php"><span>View</span> </a>
+                      <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="<?php echo base_url()?>services"><span>View</span> </a>
                     </div>
                   </div>
                   <div class="project-details p-15 pt-10 pb-10">
-                    <h4 class="font-weight-700 text-uppercase mt-0"><a href="services.php">BIM MANAGEMENT </a></h4>
+                    <h4 class="font-weight-700 text-uppercase mt-0"><a href="<?php echo base_url()?>services">BIM MANAGEMENT </a></h4>
                     <p>A BIM Manager within a Design team could be responsible for: defining BIM Standards, developing BIM content, setting up and deploying BIM templates</p>
                     
                   </div>
@@ -155,11 +155,11 @@
                   <div class="thumb">
                     <img class="img-fullwidth" alt="" src="<?php echo base_url()?>assets/images/services/bim-model-creation.jpg">
                     <div class="hover-link">
-                      <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="services.php"><span>View</span> </a>
+                      <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="<?php echo base_url()?>services"><span>View</span> </a>
                     </div>
                   </div>
                   <div class="project-details p-15 pt-10 pb-10">
-                    <h4 class="font-weight-700 text-uppercase mt-0"><a href="services.php">BIM MODEL CREATION</a></h4>
+                    <h4 class="font-weight-700 text-uppercase mt-0"><a href="<?php echo base_url()?>services">BIM MODEL CREATION</a></h4>
                     <p>Building Information Modeling (BIM) is the foundation of digital transformation in the architecture, engineering, and construction (AEC) industry. </p>
                     
                   </div>
@@ -170,11 +170,11 @@
                   <div class="thumb">
                     <img class="img-fullwidth" alt="" src="<?php echo base_url()?>assets/images/services/bim-visualization.jpg">
                     <div class="hover-link">
-                      <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="services.php"><span>View</span> </a>
+                      <a class="btn btn-flat btn-dark btn-theme-colored btn-md pull-left font-20" href="<?php echo base_url()?>services"><span>View</span> </a>
                     </div>
                   </div>
                   <div class="project-details p-15 pt-10 pb-10">
-                    <h4 class="font-weight-700 text-uppercase mt-0"><a href="services.php">BIM VISUALISATION </a></h4>
+                    <h4 class="font-weight-700 text-uppercase mt-0"><a href="<?php echo base_url()?>services">BIM VISUALISATION </a></h4>
                     <p>Building Information Modeling (BIM) has transformed the way architects design buildings. Combined with the power of immersive visualization.</p>
                     
                   </div>

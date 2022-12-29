@@ -163,6 +163,16 @@ html {
 .icon-box {
 	text-align: center;
 }
+.icon-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+h2.title.icon-s {
+    text-align: center;
+}
 .icon-box.left {
 	text-align: center;
 }

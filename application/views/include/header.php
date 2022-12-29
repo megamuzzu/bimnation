@@ -11,7 +11,7 @@
 <meta name="author" content="" />
 
 <!-- Page Title -->
-<title>Bim Nation</title>
+<title>Bim Nation: BIM NATION offers professional training in BIM-Revit. We focus on covering all the essential aspects required to handle complex challenges.</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="<?php echo base_url()?>assets/images/favicon.png" rel="shortcut icon" type="image/png">
