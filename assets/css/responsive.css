@@ -21,7 +21,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 	.project .project-details {
-    min-height: 140px;
+    min-height: 160px;
 }
 }
 
