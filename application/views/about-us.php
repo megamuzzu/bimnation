@@ -98,7 +98,7 @@
               </div>
             </div>
             <div class="col-md-5 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
-              <h3 class="text-uppercase title line-bottom">What <span class="text-theme-color-2 font-weight-700">Clients Say ?</span></h3>
+              <h3 class="text-uppercase title line-bottom">Reviews <span class="text-theme-color-2 font-weight-700"></span></h3>
               <div class="bxslider bx-nav-top">
                 <div class="testimonial bg-theme-colored border-radius-10px p-20 mb-15">
                   <div class="comment">

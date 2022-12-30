@@ -232,7 +232,7 @@
         <div class="section-title text-center">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <h2 class="mt-0 line-height-1 text-center mb-10 text-black-333 text-uppercase">Our <span class="text-theme-color-2"> Gllery</span></h2>
+              <h2 class="mt-0 line-height-1 text-center mb-10 text-black-333 text-uppercase">Our <span class="text-theme-color-2"> GALLERY</span></h2>
               
             </div>
           </div>
@@ -475,7 +475,7 @@
       <div class="container pt-60 pb-60">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 pb-0  text-center text-white">Our Students say</h2>
+              <h2 class="text-uppercase mt-0 pb-0  text-center text-white">Reviews</h2>
             <div class="owl-carousel-1col" data-dots="true">
               <div class="item">
                 <div class="testimonial-wrapper text-center">

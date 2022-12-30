@@ -243,6 +243,25 @@ fieldset,
 form {
   margin-bottom: 10px;
 }
+ul.special-list li:before {
+    content: '\f0a4';
+    font-family: 'FontAwesome';
+    margin-right: 6px;
+    color: #1f386b;
+}
+.service-extra {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.service-left ul.special-list li {
+    font-size: 24px;
+}
+.service-right img {
+    outline: 2px solid #FFF;
+    outline-offset: -15px;
+    border-radius: 8px;
+}
 /* -------- Custom Font Family ---------- */
 .font-opensans {
   font-family: 'Open Sans', sans-serif;

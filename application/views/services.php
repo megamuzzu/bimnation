@@ -35,7 +35,7 @@
             <div class="owl-carousel-3col owl-nav-top" data-dots="true">
               
 
-              <div class="item">
+              <div class="items">
                 <div class="project mb-30 border-2px">
                   <div class="thumb">
                     <img class="img-fullwidth" alt="" src="<?php echo base_url()?>assets/images/services/BIM-Management.jpg">
@@ -45,7 +45,10 @@
                   </div>
                   <div class="project-details p-15 pt-10 pb-10">
                     <h4 class="font-weight-700 text-uppercase mt-0"><a href="#">BIM MANAGEMENT </a></h4>
-                    <p>A BIM Manager within a Design team could be responsible for: defining BIM Standards, developing BIM content, setting up and deploying BIM templates</p>
+                    <ul class="special-list">
+                      <li>Coordination & Project Documentation</li>                      
+                    </ul>
+                    <!-- <p>Coordination & Project Documentation</p> -->
                     
                   </div>
                 </div>
@@ -60,7 +63,11 @@
                   </div>
                   <div class="project-details p-15 pt-10 pb-10">
                     <h4 class="font-weight-700 text-uppercase mt-0"><a href="#">BIM MODEL CREATION</a></h4>
-                    <p>Building Information Modeling (BIM) is the foundation of digital transformation in the architecture, engineering, and construction (AEC) industry. </p>
+                    <ul class="special-list">
+                      <li>Architectural modelling</li>
+                      <li>Structural modelling</li>
+                      <li>Revit family creation</li>        
+                    </ul>
                     
                   </div>
                 </div>
@@ -75,12 +82,47 @@
                   </div>
                   <div class="project-details p-15 pt-10 pb-10">
                     <h4 class="font-weight-700 text-uppercase mt-0"><a href="#">BIM VISUALISATION </a></h4>
-                    <p>Building Information Modeling (BIM) has transformed the way architects design buildings. Combined with the power of immersive visualization.</p>
+                    <!-- <p>Building Information Modeling (BIM) has transformed the way architects design buildings. Combined with the power of immersive visualization.</p> -->
+                    <ul class="special-list">
+                      <li>Animations</li>
+                      <li>Computer Generated Images(CGI)</li>      
+                    </ul>
                     
                   </div>
                 </div>
               </div>
               
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-1">
+      <div class="container pt-70 pb-40">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h2 class="mt-0 line-height-1 text-center text-uppercase mb-10 text-black-333">How we support <span class="text-theme-color-2"> your team.</span></h2>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row multi-row-clearfix">
+          <div class="col-md-12 service-extra">
+            <div class="col-md-6">
+              <div class="service-left">
+                <ul class="special-list">
+                  <li>BIM Modelling and Revit</li>
+                  <li>BIM Content Libraries</li>
+                  <li>BIM Execution Plan & Implementation</li>        
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+            <div class="service-right">
+              <img src="<?php echo base_url()?>assets/images/gallery/g6.jpg" alt="" class="img-responsive">
+            </div>
             </div>
           </div>
         </div>
@@ -97,7 +139,7 @@
       <div class="container pt-60 pb-60">
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
-              <h2 class="text-uppercase mt-0 pb-0  text-center text-white">Our Students say</h2>
+              <h2 class="text-uppercase mt-0 pb-0  text-center text-white">Reviews</h2>
             <div class="owl-carousel-1col" data-dots="true">
               <div class="item">
                 <div class="testimonial-wrapper text-center">

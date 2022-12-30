@@ -37,7 +37,7 @@
               </div>
 
               <!-- LAYER NR. 2 -->
-              <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent border-left-theme-color-2-6px pl-20 pr-20"
+              <!-- <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent border-left-theme-color-2-6px pl-20 pr-20"
                 id="rs-1-layer-2"
 
                 data-x="['left']"
@@ -59,10 +59,10 @@
                 data-splitout="none" 
                 data-responsive_offset="on"
                 style="z-index: 7; white-space: nowrap; font-weight:600;">Education For EveryOne 
-              </div>
+              </div> -->
 
               <!-- LAYER NR. 3 -->
-              <div class="tp-caption tp-resizeme text-white" 
+              <!-- <div class="tp-caption tp-resizeme text-white" 
                 id="rs-1-layer-3"
 
                 data-x="['left']"
@@ -84,7 +84,7 @@
                 data-splitout="none" 
                 data-responsive_offset="on"
                 style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">We provides always our best services for our clients and  always<br> try to achieve our client's trust and satisfaction.
-              </div>
+              </div> -->
 
               <!-- LAYER NR. 4 -->
               <div class="tp-caption tp-resizeme" 
@@ -106,7 +106,7 @@
                 data-splitin="none" 
                 data-splitout="none" 
                 data-responsive_offset="on"
-                style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored border-left-theme-color-2-6px pl-20 pr-20" href="#">View Details</a> 
+                style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored border-left-theme-color-2-6px pl-20 pr-20" href="<?php echo base_url()?>services">View Details</a> 
               </div>
             </li>
 
@@ -167,7 +167,7 @@
               </div>
 
               <!-- LAYER NR. 3 -->
-              <div class="tp-caption tp-resizeme text-white text-center" 
+              <!-- <div class="tp-caption tp-resizeme text-white text-center" 
                 id="rs-2-layer-3"
 
                 data-x="['center']"
@@ -189,7 +189,7 @@
                 data-splitout="none" 
                 data-responsive_offset="on"
                 style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">We provides always our best services for our clients and  always<br> try to achieve our client's trust and satisfaction.
-              </div>
+              </div> -->
 
               <!-- LAYER NR. 4 -->
               <!-- <div class="tp-caption tp-resizeme" 

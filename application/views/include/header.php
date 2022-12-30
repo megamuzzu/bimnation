@@ -76,8 +76,8 @@
             <div class="widget no-border m-0">
               <ul class="list-inline">
                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white"></i> <a class="text-white" href="tel:+918826367018">+91 882 636 7018</a> </li>
-                <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> Mon-Fri 8:00 to 2:00 </li>
-                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="mailto:info@bimnation.in">info@bimnation.in</a> </li>
+                <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> Mon-Fri 10AM to 6PM </li>
+                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="mailto:info@bimnation.in" style="text-transform: unset;">info@bimnation.in</a> </li>
               </ul>
             </div>
           </div>
@@ -108,10 +108,10 @@
               <li><a href="<?php echo base_url()?>">Home</a></li>
               <li><a href="<?php echo base_url()?>about-us">About Us</a></li>                          
               <li><a href="<?php echo base_url()?>services">BIM Services</a>
-                <ul class="dropdown">
+                <!-- <ul class="dropdown">
                   <li><a href="#">BIM MANAGEMENT </a></li>
                   <li><a href="#">BIM MODEL CREATION</a></li>
-                </ul>
+                </ul> -->
               </li>
               <li><a href="<?php echo base_url()?>bim-training">BIM TRAINING </a></li>
               <li><a href="<?php echo base_url()?>contact-us">Contact Us</a></li>              
