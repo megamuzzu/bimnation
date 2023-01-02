@@ -98,7 +98,7 @@ class Index_page extends BaseController {
                         $this->load->library('email');
                         $config['mailtype'] = 'html';
                         $this->email->initialize($config);
-                        $toemail = 'muzammilmegatask@gmail.com';
+                        $toemail = 'info@bimnation.in';
                         $this->email->from('email@bimnation.in', 'New Registartion Lead');
                         $this->email->to($toemail);
      
@@ -156,7 +156,7 @@ class Index_page extends BaseController {
                         $this->load->library('email');
                         $config['mailtype'] = 'html';
                         $this->email->initialize($config);
-                        $toemail = 'muzammilmegatask@gmail.com';
+                        $toemail = 'info@bimnation.in';
                         $this->email->from('mail@bimnation.in', 'New Contact Us Lead');
                         $this->email->to($toemail);
  
@@ -243,7 +243,7 @@ class Index_page extends BaseController {
                         $this->load->library('email');
                         $config['mailtype'] = 'html';
                         $this->email->initialize($config);
-                        $toemail = 'muzammilmegatask@gmail.com';
+                        $toemail = 'info@bimnation.in';
                         $this->email->from('email@bimnation.in', 'New Career Lead');
                         $this->email->to($toemail);
                         $this->email->attach($full_path_doc);
