@@ -6,12 +6,12 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="" />
-<meta name="keywords" content="" />
-<meta name="author" content="" />
+<meta name="description" content="Bim Nation: BIM NATION offers professional training in BIM-Revit. We focus on covering all the essential aspects required to handle complex challenges." />
+<meta name="keywords" content="bim revit, bim training, bim nation, revit" />
+<meta name="author" content="Bim Nation" />
 
 <!-- Page Title -->
-<title>Bim Nation: BIM NATION offers professional training in BIM-Revit. We focus on covering all the essential aspects required to handle complex challenges.</title>
+<title>Bim Nation: BIM NATION offers professional training in BIM-Revit.</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="<?php echo base_url()?>assets/images/favicon.png" rel="shortcut icon" type="image/png">
